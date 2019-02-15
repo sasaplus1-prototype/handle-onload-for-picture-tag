@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>handle onLoad for &lt;picture /&gt;</title>
+  </head>
+  <body>
+    <picture>
+      <source srcset="https://hayabusa.io/test/doge.hief" type="image/hief">
+      <source srcset="https://hayabusa.io/test/doge.webp" type="image/webp">
+      <img id="js-image" src="https://hayabusa.io/test/doge.jpg">
+    </picture>
+    <p id="js-src"></p>
+    <script src="index.js"></script>
+  </body>
+</html>
